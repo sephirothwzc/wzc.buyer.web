@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--基本信息-->
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>wzc.buyer</groupId>
+    <artifactId>web</artifactId>
+    <version>1.0.0</version>
+    <modules>
+        <module>webapi</module>
+        <module>service</module>
+        <module>vo</module>
+        <module>dao</module>
+        <module>DO</module>
+        <module>VO</module>
+        <module>DAO</module>
+        <module>serviceimpl</module>
+    </modules>
+    <packaging>pom</packaging>
+    <!--项目基本介质-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
+    </parent>
+    <!--指定项目中公有的依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.0.5.RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>
