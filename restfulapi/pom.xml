@@ -9,13 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>VO</artifactId>
-
-    <!--模块相关依赖-->
+    <artifactId>restfulapi</artifactId>
     <dependencies>
         <dependency>
             <groupId>wzc.buyer</groupId>
-            <artifactId>base</artifactId>
+            <artifactId>VO</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>

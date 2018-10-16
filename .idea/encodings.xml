@@ -5,10 +5,14 @@
     <file url="file://$PROJECT_DIR$/DAO" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DO" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/VO" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/restfulapi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/serviceimpl" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/webapi" charset="UTF-8" />
   </component>
 </project>

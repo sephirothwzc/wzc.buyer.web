@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="base" />
         <module name="DAO" />
         <module name="DO" />
+        <module name="restfulapi" />
         <module name="service" />
         <module name="serviceimpl" />
+        <module name="utils" />
         <module name="VO" />
-        <module name="webapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dao" target="1.8" />
+      <module name="webapi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
