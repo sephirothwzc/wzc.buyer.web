@@ -1,5 +1,6 @@
 package wzc.buyer.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +9,7 @@ import wzc.buyer.base.customenum.CustomStatusEnum;
 import wzc.buyer.base.exception.CustomException;
 
 import javax.validation.Valid;
+import java.util.*;
 
 /**
  * @author 吴占超
@@ -24,5 +26,21 @@ public class SysUserController {
             throw new CustomException(CustomStatusEnum.Business,"passWord is not find");
         }
         return sysUserFindInVo;
+    }
+
+    @GetMapping("sys-user")
+    public List<SysUserFindInVo> findSysUser(SysUserFindInVo sysUserFindInVo) {
+        return new ArrayList<SysUserFindInVo>() {{
+            add(new SysUserFindInVo(){{
+                setId("123");
+                setUserName("张三");
+                setPassWord("1233");
+            }});
+            add(new SysUserFindInVo(){{
+                setId("4");
+                setUserName("张三1");
+                setPassWord("2");
+            }});
+        }};
     }
 }
